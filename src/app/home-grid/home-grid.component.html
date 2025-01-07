@@ -1,0 +1,29 @@
+<div class="home-grid">
+  <a
+    href="https://github.com/Ilona-Poltavets"
+    class="grid-item bg-gray-800"
+    target="_blank"
+  >
+    <img src="github.png" alt="github" />
+    <!-- <div class="title"></div> -->
+  </a>
+  <a
+    routerLink="/ecology"
+    routerLinkActive="bg-primary-100 dark:bg-primary"
+    class="grid-item bg-green-900 site-demo"
+    role="button"
+    aria-haspopup="true"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+    <img src="ecology/bg-tile.png" alt="laravel"/>
+    <div class="title text-2xl ">BSNU Ecology</div>
+
+  </a>
+  <a href="/" class="grid-item bg-green-900">
+    <img src="django.png" alt="django" />
+    <!-- <div class="title"></div> -->
+  </a>
+  <a href="/" class="grid-item bg-white">
+    <img src="laravel.svg" alt="laravel" />
+  </a>
+</div>

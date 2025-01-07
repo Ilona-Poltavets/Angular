@@ -1,0 +1,51 @@
+.home-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    gap: 1rem;
+
+    .grid-item {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        flex: 1 1 calc((100% / 3) - 2rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            object-fit: cover;
+        }
+
+        &.site-demo {
+            position: relative;
+            
+            img {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+                filter: blur(4px);
+            }
+            .title{
+                color: white;
+                z-index: 3;
+                position: absolute;
+                left: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.363);
+                padding: 5px;
+                text-align: center;
+            }
+            // &::after {
+            //     content: "";
+            //     filter: blur(10px);
+            //     position: absolute;
+            //     top: 0;
+            //     bottom: 0;
+            //     left: 0;
+            //     right: 0;
+            //     background-color: white;
+            //     opacity: 0.3;
+            // }
+        }
+    }
+}
