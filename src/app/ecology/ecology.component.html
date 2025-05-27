@@ -1,1 +1,6 @@
-<p>ecology works!</p>
+<main class="main">
+  <app-ecology-navbar></app-ecology-navbar>
+  <app-ecology-home *ngIf="isHomeVisible"></app-ecology-home>
+  <router-outlet />
+  <app-ecology-footer></app-ecology-footer>
+</main>

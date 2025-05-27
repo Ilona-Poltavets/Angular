@@ -1,0 +1,10 @@
+.logos{
+    display: flex;
+    height: 80px;
+    overflow-y: hidden;
+    overflow-y: auto;
+    background-color:rgb(240, 248, 255) ;
+    .logo{
+        margin-right: 10px;
+    }
+}
